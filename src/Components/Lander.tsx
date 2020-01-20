@@ -9,13 +9,13 @@ const Lander: React.FC = () => {
         <div className="lander">
             <header className="lander__header">
                 <p>Welcome to the andWellness App!</p>
-                <h2>Try one of the following exemplary links.</h2>
-                <ul>
-                    <li><a href={liftsExampleUri}>Index Page</a></li>
-                    <li><a href={baseExampleUri}>Example Lift</a></li>
-                    <li><a href={badExampleUri}>Bad Path Example</a></li>
-                </ul>
             </header>
+            <h2>Try one of the following exemplary backend links.</h2>
+            <ul>
+                <li><a href={liftsExampleUri}>Index Page</a></li>
+                <li><a href={baseExampleUri}>Example Lift</a></li>
+                <li><a href={badExampleUri}>Bad Path Example</a></li>
+            </ul>
         </div>
     )
 }
